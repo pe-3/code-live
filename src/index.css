@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-run {
+  position: fixed;
+  color: white;
+  border-radius: 50%;
+  bottom: 16px;
+  right: 16px;
+  background-color: #1976d2;
+  display: grid;
+  place-content: center;
+  font-size: 12px;
+  width: 3rem;
+  height: 3rem;
+}
+
+
+.btn-save {
+  position: fixed;
+  color: white;
+  border-radius: 50%;
+  bottom: calc(16px + 4rem);
+  right: 16px;
+  background-color: #1976d2;
+  display: grid;
+  place-content: center;
+  font-size: 12px;
+  width: 3rem;
+  height: 3rem;
+}

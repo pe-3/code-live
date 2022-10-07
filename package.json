@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fastify/websocket": "^7.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,6 +11,12 @@
     "@types/node": "^16.11.63",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "@uiw/codemirror-extensions-langs": "^4.12.3",
+    "@uiw/codemirror-theme-sublime": "^4.12.3",
+    "@uiw/react-codemirror": "^4.12.3",
+    "fastify": "^4.7.0",
+    "nanoid": "^4.0.0",
+    "perfect-scrollbar": "^1.5.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -17,6 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "server": "node node/server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
